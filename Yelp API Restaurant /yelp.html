@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- Student Name:   -->
+<html lang="en">
+  <head>
+    <title>Web Mashup: Display Best Restaurants on a Map</title>
+    <meta charset="utf-8"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body onload="initialize();">
+    <div id="searchBar">
+      <form>
+         <input type="text" placeholder="Enter the search term" id="search"/>
+         <input type="button" onclick="sendRequest();" value="Find" id="searchButton"/>
+      </form>
+    </div>
+    <div id="map"></div>
+    <div id="list">
+      <table style="width: 100%; margin-top: 20px;">
+          <tbody id="yelp-list">
+          </tbody>
+        </table>
+    </div>
+
+        
+        <script type="text/javascript" src="yelp.js"></script>
+
+        <script type="text/javascript" src="gmap.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9CRKX6cyb-pOFAVkQ-vZ52sjYKoYEHj4&callback=initMap"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+  #input-box {
+    width: 80%;
+    height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+  }
+
+  #message_input_box{
+    border: 2px solid;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .message-post {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    background-color: #4f87a8;
+  }
+
+  .reply-post{
+    margin-top: 10px;
+    margin-left: 60px;
+  }
+
+  .message_in_box {
+    color: #d3f780;
+  }
